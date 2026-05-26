@@ -1,5 +1,5 @@
 import path from 'path';
-import genDiff from '../src/index.js';
+import genDiff from '../index.js';
 
 const getFixturePath = (filename) =>
   path.resolve(process.cwd(), '__fixtures__', filename);
